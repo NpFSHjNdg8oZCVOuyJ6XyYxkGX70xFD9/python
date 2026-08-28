@@ -13,4 +13,11 @@ title = "weekly score report"
 #print(title[12:19])
 
 #new_title="new"+title[12:]
-print(new_title)
+#print(new_title)
+
+substring= title[12:19]
+label=substring  + ":" +str(len(scores))
+print(substring)
+print(label)
+
+#lists can be changed after they are created, strings cannot be changed after they are created
